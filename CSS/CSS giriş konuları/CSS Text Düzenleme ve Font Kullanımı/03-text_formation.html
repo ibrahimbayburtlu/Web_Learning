@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Formatlama ve Font Kullanımı </title>
+    <style>
+        .paragraf1{
+            color: red;
+            color: #ff0000;
+            color: rgb(228, 159, 10);
+            font-size: 32px;
+            background-color: #ccc;
+            text-align: center;
+            /*
+            direction: rtl;
+            unicode-bidi: bidi-override;
+            */ 
+        }
+        .paragraf2{
+            text-decoration: underline; /* Tüm yazıların altını çiz*/
+            text-decoration: overline; /*Üst kısmını çiz*/
+            text-decoration: line-through; /* Üst kısmını çizer*/
+        }
+        .paragraf3{
+            text-transform: lowercase; /* Bütün harfleri küçük yap*/
+            text-transform: capitalize; /* Bütün harflerin ilk harfini büyük yap */
+            text-indent: 100px;     /* ilk paragraf boşluk bırakır*/
+            letter-spacing: 5px;    /*harfler arasına 5px yer koyar*/
+            line-height: 2;         /* Satırlar arasında boşluk bırakır*/
+
+        }
+        .paragraf4{
+            word-spacing: 10px; /*Kelimeler arasına 10px yer koyar*/
+            white-space:wrap;   /* Kelimeler uzar alt satıra geçmez*/
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .paragraf5{
+            text-shadow: 2px 2px red; /* Aynı yazıyı kırmızı ile gölğe yapar*/
+        }
+    </style>
+</head>
+<body>
+    <p class="paragraf1">Lorem ipsum dolor sit amet.</p>
+    <p class="paragraf2">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sunt sint veritatis autem hic corrupti repellat nesciunt assumenda delectus exercitationem voluptate.</p>
+    <p class="paragraf3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium, explicabo?</p>
+    <p class="paragraf4">Lorem ipsum dolor sit.</p>
+    <p class="paragraf5">Lorem, ipsum dolor.</p>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Flow</title>
+    <style>
+div{ /*Blok eleman*/
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+}
+.container{
+    width: 50%;
+    background-color: red;
+    padding: 1rem;
+}
+span{ /* inline eleman*/
+    color: blue;
+    width: 500px;
+    height: 500px; 
+    background-color: purple;
+    display: inline-block; /* inline gibi davranır ama genişlik ve yükseklik oynama yapabiliriz */
+}
+.btn{
+    width: 200px;
+    height: 200px;
+}
+    /* Block parent kadar yer kaplar*/
+    /* inline content kadar yer kaplar*/
+    </style>
+</head>
+<body>
+    <div class="container"><div>Lorem ipsum dolor sit amet.</div></div>
+    <p></a> Lorem ipsum <span> Lorem, ipsum dolor.</span> dolor sit amet consectetur, adipisicing elit. Veniam, ex.</p>
+    <p class="display">Burası kaybolacak</p>
+    <button class="btn">Beni Tıklaaaaaaa</button>
+
+</body>
+</html>

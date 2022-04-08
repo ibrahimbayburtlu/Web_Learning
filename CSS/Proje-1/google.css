@@ -1,0 +1,32 @@
+body{
+    background-color: white;
+}
+th{
+    height: 70px;
+}
+p{
+    text-align: center;
+}
+.class{
+    text-align: center;
+}
+td, th{
+    background-color: aqua;
+}
+caption{
+    background-color:gray;
+}
+#imager{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+table{
+    margin: auto;
+    width:500px;
+}
+#fgoogle{
+    width:15rem;
+}

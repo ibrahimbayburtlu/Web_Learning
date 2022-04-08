@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Border Margin Padding</title>
+    <style>
+        #p1{
+            border: dotted; /* nokta nokta bir sınır çiz  */
+            border-style: solid; /* Tek bir sınır çiz.*/
+            border-color: blueviolet; /* Border renk seçtik */
+            border-width:5px; /* 5px kalınlığında çizdi */
+            padding: 20px;  /* Dışarıdan boşluk bırakılır */
+            margin:10px 20px 30px 40px;
+            border: 2px yellow solid; /* Tek satırda çözüm oluştu */
+        }
+        #p2{
+            margin-top: 60px; /*üst kısımdan 60px alan bırak */
+            margin-bottom: 30px; /*Alt kısımdan 30px alan bırak */
+            border:5px green solid;
+            padding: 20px;
+            border-width:10px 30px; /* ilk yazılan yukarı aşşağı ikincisi sağ ve sol*/
+        }
+        #p3{
+            border-top: 5px blue solid; /* üst kısmına 5px mavi çizği çekti*/
+            border-bottom: 15px teal solid; /*alt kısmına 15px kalınlığından çizgi çek */
+            border-left: 3px solid;
+            border-right: 2px solid;
+            border-color: red blue purple;
+            border-style: dotted dashed;
+        }
+        #p4{
+            margin: 20px 40px;
+            border: 3px red solid;
+            border-radius: 15px;    /*Kenarları ovalleştirme yapar*/
+            border-top-left-radius: 30px; /* sol üst köşeye 30px  yap*/
+        }
+        #orta{
+            width: 300px;
+            background-color: purple;
+            height: 300px;
+            margin:auto; /*Otomatik şekilde ortalar */
+            box-sizing: 300px; /*Kutu boyutu verilir.Kutu şekli değişmez*/
+            padding:50px; /* Yazı ortalanır*/
+        }
+    </style>
+</head>
+<body>
+    <!-- tüm kenarlara sınır uygula -->
+    <p id="p1">Bu bir paragraf</p>
+    <p id="p2">Bu bir paragraf </p>
+    <p id="p3">Bu bir paragraf</p>
+    <p id="p4">Bu bir paragraf</p>
+    <div id="orta">Ortalanacak Yapı</div>
+</body>
+</html>
