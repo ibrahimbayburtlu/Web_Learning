@@ -1,0 +1,29 @@
+body{
+    background-image: url('Dog_photo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.Şehir{
+    font-size: 32px;
+}
+.Şekil{
+    color: black;
+}
+#div1{
+    background-color: green;
+}
+#div2{
+    background-color: blue;
+}
+td, th{
+    padding: 15px;
+    text-align:left;
+}
+table{
+    border-spacing: 20px;
+}
+table,#tablo1,td,th{
+    border:1px solid blue;
+    border-collapse:collapse;
+}

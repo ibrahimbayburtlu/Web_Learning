@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repeat-2</title>
+    <!-- stylesheet=> Stil sayfası rel=> relationship => ilişki-->
+    <!-- Link sayesinde başka dosyadan kod çekeriz. -->
+    <link rel="stylesheet" href="yeni.css">
+</head>
+<body>
+    <!-- Alıntı Etiketleri  -->
+    <p>Atatürk şunu söylemiştir:</p>
+    <q>Vatanda Sulh Cihanda Sulh</q>
+    <p>Naval:<blockquote>
+    "If you want to make the wrong decision, ask everyone."
+    </blockquote></p>
+
+    <p> Türkiye'nin en büyük kulübü <abbr title="Fenerbahçe Cumhuriyeti">FB</abbr>'dir.</p>
+    <p>Güncel Adresimiz <address>İstanbul Gaziosmanpaşa Türkiye </address></p>
+    <p>Şahan Gökbahar filmi <cite> Recep İvedik</cite> çok izlendi</p>
+    <bdo dir="ltr"> Bu normal bir yazı</bdo> <br> 
+    <bdo dir="rtl"> Bu normal bir yazı değildir </bdo>
+
+    <!-- Attribute Kavramı -->
+    <p title="kelimedir" style="color: aquamarine;"> Bu bir kelimedir.</p>
+    <p title="renk" style="color: blue;">Mavi</p>
+
+    <!-- Class-ID kavramları -->
+    <div class="Şehir Şekil" id="div1">
+        <h2>İstanbul</h2>
+        <p>Türkiye'nin en kalabalık şehridir</p>
+    </div>
+    <div class="şehir2" id="div2">
+        <h2>Monaco</h2>
+        <p>Fransa'ın en güzel şehridir</p>
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <p>Lorem, ipsum dolor.</p>
+        <p>Lorem, ipsum.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+        <p>Lorem, ipsum.</p>
+        <a href="#div2">Yukarı Atla</a>
+    </div>
+    <!-- Heading ve Pragraf -->
+    <h1>1 Head </h1>
+    <br>
+    <h2>2 Head </h2>
+    <br>
+    <h3>3 Head</h3>
+    <br>
+    <pre style="font-size: 32px;">
+        Korkma, sönmez bu şafaklardan yüzen al sancak;
+        Sönmeden yurdumun üstünde tutan en son ocak.
+        O benim milletimin yıldızıdır, parlayacak;
+        O benimdir , o benim milletimindir ancak.
+    </pre>
+    <!-- Tablolar -->
+    <table id="tablo1" style="width: 100%;">
+        <!-- Tablo Başlığı-->
+        <caption>
+            Deneme Tablo
+        </caption>
+        <!-- th => table header -->
+        <th>
+            İsim
+        </th>
+        <th>
+            Soyisim
+        </th>
+        <th>
+            Yaş
+        </th>
+        <th colspan="2">
+            Adress
+        </th>
+        <th>
+            Resim
+        </th>
+        <!-- Table ready -->
+        <tr>
+            <!-- Table Data -->
+            <td>
+                emre
+            </td>
+            <td>
+                AltunBilek
+            </td>
+            <td>
+                32
+            </td>
+            <td>
+                istanbul
+            </td>
+            <td>
+                Ankara
+            </td>
+            <td>
+                <img src="Dog_photo.jpg" alt="Dog photo" height="200" width="200">
+            </td>
+        </tr>
+    </table>
+
+</body>
+
+</html>

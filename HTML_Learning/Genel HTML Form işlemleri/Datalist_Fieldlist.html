@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> DataList-Fields </title>
+</head>
+<body>
+    <!-- Değerlerin gönderme action-->
+    <!--Kullanıcı girişleri için HTML formu tanımlar.-->
+    <!-- action alınan değerlerin gönderileceği yer-->
+    <form action="degerlerial.txt" method="post">
+
+    <!-- FieldSet sayesinde gruplama yaparız -->
+    <!--FieldSet başlık=>Legend -->
+    <fieldset>
+        <legend>İsim Bilgileri </legend>
+    <!--Label => Giriş elemanı için etiket tanımlar. -->
+    <!-- input=> Bir giriş kontrolü tanımlar.-->
+    <label for="ad">Adınızı girin:</label>
+    <input type="text" id="ad" name="ad"> <br><br>
+
+    <!-- id değerleri her elemanı birbirinden ayırmak için kullanılır-->
+    <label for="soyad">Soyadınızı girin:</label>
+    <input type="text" id="soyad" name="soyad"> <br><br>
+    </fieldset>
+
+    <label for="memleket">memleket girin:</label>
+    <input list="memleketler" id="memleket" name="memleket"> <br><br>
+    <!--Datalist sayesinde liste yapabiliriz-->
+    <datalist id="memleketler">
+        <option value="Bursa">
+        <option value="istanbul">
+        <option value="ankara">
+        <option value="Amasya"> 
+        <option value="Antalya">
+    </datalist>
+
+    <fieldset>
+        <legend>Cinsiyet Bilgileri</legend>
+    <!-- Tek seçimlik olması için name tanımladık -->
+    <input type="radio" id="erkek" name="cinsiyet" value="erkek">
+    <label for="erkek">Erkek</label>
+
+    <!-- Radio tipi sayesinde yuvarlak seçim olır-->
+    <input type="radio" id="kadın" name="cinsiyet" value="kadın">
+    <label for="kadın">kadın</label> <br><br>
+    </fieldset>
+
+    <!-- value değeri sayesinde veri gönderirken yardımcı olur-->
+    <input type="checkbox" name="kırmızı" id="mavi" value="mavi" >
+    <label for="mavi" style="color: blue;">Mavi</label>
+
+    <!-- input sayesinde girdi alabiliriz -->
+    <input type="checkbox" name="kırmızı" id="sarı" value="sarı">
+    <label for="sarı" style="color: yellow;">Sarı</label>
+
+    <!-- label tag sayesinde kırmızı,mavi gibi yazıları yazarız. -->
+    <input type="checkbox" name="kırmızı" id="kırmızı" value="kırmızı">
+    <label for="kırmızı" style="color: red;">Kırmızı</label>
+
+    <!--Eğer bazı değerlerin check edilmiş olmasını istersek-->
+    <input type="checkbox" name="mor" id="mor" value="mor" checked="checked">
+    <label for="mor" style="color:purple;">mor</label>    
+    <br>
+
+    <!-- Button yerleştirelim ve bir yere gönderelim-->
+    <input type="submit" name="" id="" value="gönder">
+    <input type="submit" name="yeni" id="yeni" value="gönder">
+    <label for="yeni" style="color: aqua;">Butona basınız:</label>
+    <br><br>
+
+    <label for="arabalar">Favori Marka</label>
+    <select name="arabalar" id="arabalar" multiple="">
+        <option selected value="Honda">Honda</option>
+        <option value="Reno">Reno</option>
+        <option value="mercedes">mercedes</option>
+        <option selected value="BMW">BMW</option>
+        <option value="pejo">pejo</option>
+    </select>
+    <br><br>
+    <!--Birden fazla satırlar için kullanılan alanımız-->
+    <label for="adres">Adres:</label>
+    <textarea name="" id="adres" cols="50" rows="2"></textarea>
+
+    <label for="bio">Adres:</label>
+    <textarea name="bio" id="bio" style="width: 200px; height: 50px;" ></textarea>
+    <br>
+    <!-- diğer button ifadesinden daha kapsamlı resim vs koyarım.-->
+    <button type="reset" onclick="alert('Selam')" >Yeni button <button>
+    </form>
+</body>
+</html>

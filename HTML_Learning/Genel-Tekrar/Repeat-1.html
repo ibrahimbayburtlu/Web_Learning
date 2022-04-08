@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DataList-Field</title>
+</head>
+<body>
+<!-- Genel Form işlemleri-1 -->
+<form action="degerlerial.txt" method="post">
+    <fieldset>  
+        <legend>Kimsin Sen</legend>
+            <label for="Ad">Adınızı girin</label>
+            <input type="text" id="Ad" name="Ad"><br>
+
+            <label for="Soyad">Soyadınızı girin:</label>
+            <input type="text" id="Soyad" name="Soyad"><br>
+            <label for="İl">Yaşadığınız ili girin</label>
+            <input list="İller" id="İl" name="İl">
+            <datalist id="İller">
+                <option value="Bursa">
+                <option value="Ankara">
+                <option value="İstanbul">
+                <option value="İzmir">
+                <option value="Bayburt">
+            </datalist>
+    </fieldset>
+    <fieldset>
+        <legend>Cinsiyet Bilgileri</legend>
+            <input type="radio" id="Erkek" name="Cinsiyet" value="Erkek">
+            <label for="Erkek">Erkek</label>
+
+            <input type="radio" id="Kadın" name="Cinsiyet" value="Kadın">
+            <label for="Kadın">Kadın</label>
+
+            <input type="radio" id="Belirsiz" name="Cinsiyet" value="Belirsiz">
+            <label for="Belirsiz">Belirtmek istemiyorum</label>
+    </fieldset>
+    <fieldset>
+        <legend>Renk Bilgileri</legend>
+        <input type="checkbox" id="Kırmızı" name="Renk" value="Kırmızı">
+        <label for="Kırmızı" style="color: red;">Kırmızı</label>
+
+        <input type="checkbox" id="Sarı" name="Renk" value="Sarı">
+        <label for="Sarı" style="color: yellow;">Sarı</label>
+
+        <input type="checkbox" name="Renk" id="Mavi" value="Mavi">
+        <label for="Renk" style="color: blue;">Mavi</label>
+    </fieldset>
+    <fieldset>
+        <legend>Programlama Dili</legend>
+        <label for="Diller">Favori Dil</label>
+        <select name="Dil" id="Diller" multiple="">
+            <option value="C">C</option>
+            <option value="Python">Python</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="C++">C++</option>
+            <option value="Solidty">Solidty</option>
+        </select>
+
+        <label for="Sebepler">Neden bu aracı seçtiniz:</label>
+        <textarea name="Sevep" id="Sebepler" cols="30" rows="10"></textarea>
+    </fieldset>
+    <button type="reset" onclick="alert('Selam bebek naber')">Gönder-Reset </button>
+</form>
+</body>
+</html>

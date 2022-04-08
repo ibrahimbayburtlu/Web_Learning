@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+    <style>
+        td, th{
+            padding: 15px;
+            text-align:left;
+        }
+        table{
+            border-spacing: 20px;
+        }
+        table,#tablo1,td,th{
+            border:1px solid blue;
+            border-collapse:collapse;
+        }
+    </style>
+</head>
+<body>
+    <!-- Tablo olduğunu belirtmek için kullanılan struct-->
+    <table id="tablo1" style="width: 100%;">
+        <!-- Tablo Başlığı-->
+        <caption>
+            Deneme Tablo
+        </caption>
+        <!-- th => table header -->
+        <th>
+            İsim
+        </th>
+        <th>
+            Soyisim
+        </th>
+        <th>
+            Yaş
+        </th>
+        <th colspan="2">
+            Adress
+        </th>
+        <th>
+            Resim
+        </th>
+        <!-- Table ready -->
+        <tr>
+            <!-- Table Data -->
+            <td>
+                emre
+            </td>
+            <td>
+                AltunBilek
+            </td>
+            <td>
+                32
+            </td>
+            <td>
+                istanbul
+            </td>
+            <td>
+                Ankara
+            </td>
+            <td>
+                <img src="Dog_photo.jpg" alt="Dog photo" height="200" width="200">
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>
