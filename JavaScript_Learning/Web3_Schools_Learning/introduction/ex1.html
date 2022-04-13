@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript introduction</title>
+</head>
+<body>
+    <h2>What Can JavaScript Do?</h2>
+    <p id="demo">JavaScript can change HTML content</p>
+    <p id="hi">JavaScript can't change CSS content</p>
+    <!--You can use InnerHTML if you actually want to make changes inside the captured object. Because even if the value you give here is HTML, it reflects as it is, in the form of codes that the browser will detect.-->
+    <button type="button" onclick='document.getElementById("demo").innerHTML="Hello JavaScript!"'>Click Me!</button>
+    <button type="button" onclick='document.getElementById("hi").innerHTML="Hello Everyone"'>Click me</button>
+
+</body>
+</html>
