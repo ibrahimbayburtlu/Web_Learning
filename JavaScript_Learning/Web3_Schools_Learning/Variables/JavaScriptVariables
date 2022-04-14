@@ -1,0 +1,5 @@
+The two variables price1 and price2 are declared with the const keyword.
+
+These are constant values and cannot be changed.
+
+The variable total is declared with the let keyword.
