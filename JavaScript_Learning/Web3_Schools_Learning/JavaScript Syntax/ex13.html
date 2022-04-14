@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Syntax</title>
+</head>
+<body>
+    <h2>JavaScript is Case Sensitive</h2>
+
+    <p>Try to change lastname to lastName</p>
+
+    <p id="demo"></p>
+
+    <!--
+    All JavaScript identifiers are case sensitive. 
+    The variables lastName and lastname, are two different variables:
+    -->
+    <script>
+    let lastname,lastName;
+    lastname = "Doe";
+    lastName = "Peterson";
+    document.getElementById("demo").innerHTML = lastName
+    </script>
+</body>
+</html>
