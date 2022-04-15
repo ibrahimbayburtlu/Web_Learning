@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Let</title>
+</head>
+<body>
+    var  x = 2; // Allowed
+    let x = 3;  // Not allowed
+
+    {
+        let x = 2;  // Allowed
+        let x = 3;  // Not allowed
+    }
+
+    {
+        let x = 2;  // Allowed
+        var x = 3;  // Not allowed
+    }
+</body>
+</html>
