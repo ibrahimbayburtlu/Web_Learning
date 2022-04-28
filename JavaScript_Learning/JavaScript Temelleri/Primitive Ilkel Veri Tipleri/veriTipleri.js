@@ -73,3 +73,10 @@ console.log("değer:" + yas + " veri tipi:" + typeof(yas));
 // template literak olarak yazalım:
 console.log(`değer: ${yas} veri tipi: ${typeof(yas)}`);
 
+// Symbol
+
+const value1 = Symbol('Hello');
+const value2 = Symbol("Hello");
+console.log(value1 === value2); 
+console.log(value1);
+
