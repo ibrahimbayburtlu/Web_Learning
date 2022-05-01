@@ -20,6 +20,7 @@ Eğer kullanıcı şanslı numaranın sadece bir basamağını bilirse 1000 TL k
 let uretilenSayi = (Math.random() * 90)  + 10;
 console.log("Üretilen ondalıklı sayı",uretilenSayi);
 uretilenSayi = Math.floor(uretilenSayi);
+
 // Kullanıcının girdiği sayı parseInt sayesinde tam sayı haline getirilir.
 let kullanininGirdigiSayi = parseInt(prompt("iki basamakli bir sayi giriniz:","10"));
 console.log(`Sistemin ürettiği sayi ${uretilenSayi} kullanıcının girdigi sayi ${kullanininGirdigiSayi}`);
@@ -28,7 +29,6 @@ let uretilenSayiBirlerBasamagı = uretilenSayi % 10;
 let uretilenSayiOnlarBasamagı  = Math.floor(uretilenSayi / 10);
 
 console.log(`üretilen sayının birler basamağı: ${uretilenSayiBirlerBasamagı} üretilen sayının onlar basamağı: ${uretilenSayiOnlarBasamagı}`);
-
 
 let kullanıcıSayiBirlerBasamagı = kullanininGirdigiSayi % 10;
 let kullanıcıSayiOnlarBasamagı  = Math.floor(kullanininGirdigiSayi / 10);
