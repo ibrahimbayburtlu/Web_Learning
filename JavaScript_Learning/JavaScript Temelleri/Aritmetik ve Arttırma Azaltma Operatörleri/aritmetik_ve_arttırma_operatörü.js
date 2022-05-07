@@ -23,7 +23,7 @@ console.log(sonuc);
 sonuc = sayi1 % sayi2 ;
 console.log(sonuc);
 
-// NaN değeri döndürür.
+// NaN değeri döndürür.(NaN = Not a number)
 let isim = "ibrahim";
 let soyİsim = "Bayburtlu";
 let tamİsim = isim - soyİsim;
