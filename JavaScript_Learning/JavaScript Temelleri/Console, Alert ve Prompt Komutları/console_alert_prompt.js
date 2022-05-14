@@ -28,4 +28,3 @@ alert(sayi1);
 // Kullanıcıdan bilgi almak için ekrandan alır. 
 let girilenSayi = prompt("Bir sayi giriniz:");
 
-console.log(girilenSayi);
