@@ -1,19 +1,22 @@
 
-/****************************************TAG SELECTOR*****************************/
+/****************************************TAG SELECTORS*****************************/
 
 h1{
     color: red;
 }
-/*
-img{
-    background-color: red;
+
+img :hover{
+    background-color: gold;
 }
-*/
-/**************************************CLASS SELECTOR*****************************/
+
+/**************************************CLASS SELECTORS*****************************/
 
 .Broccoli{
     background-color: red;
 }
 .Bacon{
     background-color: green;
+}
+#identifation{
+    color: blue;
 }
