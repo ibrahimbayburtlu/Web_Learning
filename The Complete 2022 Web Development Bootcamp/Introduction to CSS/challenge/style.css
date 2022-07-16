@@ -1,2 +1,19 @@
-h1{color: red;}
-img{background-color: red;}
+
+/****************************************TAG SELECTOR*****************************/
+
+h1{
+    color: red;
+}
+/*
+img{
+    background-color: red;
+}
+*/
+/**************************************CLASS SELECTOR*****************************/
+
+.Broccoli{
+    background-color: red;
+}
+.Bacon{
+    background-color: green;
+}
