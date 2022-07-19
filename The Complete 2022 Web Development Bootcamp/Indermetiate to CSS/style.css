@@ -1,9 +1,17 @@
 body{
     margin: 0px;
     text-align: center;
+    font-family: "Merriweather",serif;
 }
 h1{
     margin-top: 0;
+    font-family: "sacremato",cursive;
+}
+h2{
+    font-family:"Montserrat",sans-serif;
+}
+h3{
+    font-family: "Montserrat",sans-serif;
 }
 .top-container{
     background-color: #E4F9F5;
