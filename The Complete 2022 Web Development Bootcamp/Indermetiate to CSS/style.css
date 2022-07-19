@@ -19,16 +19,10 @@ h3{
     padding-top: 100px;
 }
 .middle-container{
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    border: 20px solid;
+
 }
 .bottom-container{
-    width: 200px;
-    height: 200px;
-    background-color: blue;
-    border: 10px solid;
+
 }
 .End{
     text-decoration: underline;
