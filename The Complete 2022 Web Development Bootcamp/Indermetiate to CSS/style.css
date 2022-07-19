@@ -41,3 +41,21 @@ h3{
 .footer-link{
     color: #11999E;
 }
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+.python-img{
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 50px;
+}
+.web-img{
+    width: 25%;
+    float: right;
+    margin-right: 25px;
+    margin-bottom: 50px;
+}
