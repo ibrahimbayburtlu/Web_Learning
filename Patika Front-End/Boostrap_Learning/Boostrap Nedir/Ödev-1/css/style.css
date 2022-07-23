@@ -1,0 +1,20 @@
+body{
+    background-color: #E9ECEF;
+}
+
+.giris{
+    text-align:center; 
+}
+ul{ 
+    display: inline-block;
+    text-align: left;
+}
+.menu{
+    background-color: black;
+}
+#MüzikDükkan{
+    color: red;
+}
+a{
+    text-decoration: none;
+}
