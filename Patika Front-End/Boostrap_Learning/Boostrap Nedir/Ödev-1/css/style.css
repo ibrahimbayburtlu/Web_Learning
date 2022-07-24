@@ -1,9 +1,3 @@
-
-/* Class olursa => başına . koy
-    id   olursa => başına # koy*/
-.header{
-    color: brown;
-}
 /* unvisited link */
 a:link {
     color: red;
