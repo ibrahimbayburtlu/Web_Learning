@@ -1,0 +1,26 @@
+
+/* Class olursa => başına . koy
+    id   olursa => başına # koy*/
+.header{
+    color: brown;
+}
+/* unvisited link */
+a:link {
+    color: red;
+}
+/* visited link */
+a:visited {
+color: blue;
+}
+ 
+/* mouse over link */
+a:hover {
+color: blue;
+}
+/* selected link */
+a:active {
+color: blue;
+}
+body{
+    text-align: center;
+}
