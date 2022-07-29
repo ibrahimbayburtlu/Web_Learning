@@ -1,7 +1,12 @@
 // Different javascript data types
 // Let's declare different data types
 
-
+let firstName = 'Asabeneh'      // string
+let lastName = 'Yetayeh'        // string
+let country = 'Finland'         // string
+let city = 'Helsinki'           // string
+let age = 250                   // number, it is not my real age, do not worry about it
+let job                         // undefined, because a value was not assigned
 
 console.log(typeof 'Asabeneh')  // string
 console.log(typeof firstName)   // string
@@ -13,10 +18,3 @@ console.log(typeof NaN)         // number
 console.log(typeof job)         // undefined
 console.log(typeof undefined)   // undefined
 console.log(typeof null)        // object
-
-// String to Int (parseInt / number())
-
-let num = '10'
-let numInt = parseInt(num)
-console.log(numInt) // 10
-
