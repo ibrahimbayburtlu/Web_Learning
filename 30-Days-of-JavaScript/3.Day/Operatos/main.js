@@ -62,8 +62,8 @@ console.log(1 == true)          // true, equivalent
 console.log(1 === true)         // false, not exactly the same
 console.log(undefined == null)  // true
 console.log(undefined === null) // false
-console.log(NaN == NaN)         // false, not equal
-console.log(NaN === NaN)        // false
+console.log(isNaN(NaN))         // false, not equal
+console.log(isNaN(NaN))        // false
 console.log(typeof NaN)         // number
 
 console.log('mango'.length == 'avocado'.length)  // false
