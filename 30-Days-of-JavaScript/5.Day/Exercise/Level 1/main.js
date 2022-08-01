@@ -118,7 +118,21 @@ control ? console.log(`${element} is Big IT company`) : console.log(`${element} 
 
 // 14.Filter out companies which have more than one 'o' without the filter method
 
-
+let newArr = []
+for (let i = 0; i < itCompanies.length; i++){
+    if(itCompanies[i].includes('o')){
+        let count = 0;
+        for (let j = 0; j < itCompanies[i].length; j++){
+            if(itCompanies[i][j] == 'o'){
+                count += 1
+            }
+        }
+        if(count == 2){
+            newArr.push(itCompanies[i])
+        }
+    }
+}
+console.log(newArr)
 
 // 15.Sort the array using sort() method
 
